@@ -1,0 +1,116 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: sans-serif;
+}
+/*styling for navbar and buttons */
+.navbar{
+	width:100%;
+	height:50px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+
+}
+.menu ul li a{
+	text-decoration:none;
+	color: darkred;
+	padding: 5px 15px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+/*line appearing bottom of the button in navbar*/
+.menu ul li a:hover{
+	border-bottom: 3px solid black;
+	transition: 0.4s ;
+}
+.body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items:right;
+	text-align:center;
+    /*setting the background image at entering the page*/
+	background-image: url(img10.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: justify;
+	position: absolute;
+	left: 15%;
+	top:25%;
+	color: darkblue;
+	font-style: italic;
+	bottom: 50%;
+}
+.heading h2{
+	font-size: 75px;
+	font-family:serif;
+	font-weight: bold;
+	text-align: justify-all;
+	
+}
+.heading p{
+	color: black;
+	letter-spacing:1px ;
+}
+.location .heading1{
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 60px;
+	border-style: dashed;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+/*Getting images side by side*/
+.location .places-container{
+	display: flex;
+	gap: 30px;
+	flex:33.33%;
+}
+
+.location .places-container .places .title{
+	text-align: center;
+	color: blueviolet;
+	font-family: Candara ;	
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+/*styling the places heading alignments done to the images and matter written for it */
+.spots .heading2{
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 60px;
+	border-style: dashed;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+.spots .spots-container .box{
+	display: flex;
+	gap: 50px;
+	flex:50%;
+	font-size: 25px;
+	border-style: solid;
+	border-radius: 25px;
+	border-spacing: 30px;
+	padding: 20px 20px 20px 20px;
+}
+
+.spots .spots-container .box .c{
+	background-color: lightblue;
+	width: 100%;
+	text-align: center;
+
+}
